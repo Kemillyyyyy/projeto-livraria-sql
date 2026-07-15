@@ -32,4 +32,25 @@ CREATE TABLE categorias (
     PRIMARY KEY (id_categoria)
 );
 
+/* =====================================================
+   TABELA: LIVROS
+   ================================================== */
+CREATE TABLE livros (
+	id_livro INT AUTO_INCREMENT,
+    titulo varchar(150) NOT NULL,
+    ano_publicacao INT NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    quantidade_estoque INT NOT NULL,
+    id_autor INT NOT NULL,
+    id_categoria INT NOT NULL,
+    
+    PRIMARY KEY (id_livro),
+    
+    FOREIGN KEY (id_autor)
+		REFERENCES autores(id_autor),
+        
+	FOREIGN KEY (id_categoria)
+		REFERENCES categorias(id_categoria)
+);
+
 
