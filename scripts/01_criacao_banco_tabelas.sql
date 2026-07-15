@@ -53,4 +53,22 @@ CREATE TABLE livros (
 		REFERENCES categorias(id_categoria)
 );
 
+/* =====================================================
+   TABELA: VENDAS
+   ================================================== */
+CREATE TABLE vendas (
+	id_venda INT AUTO_INCREMENT,
+    nome_cliente VARCHAR(100) NOT NULL,
+    email_cliente VARCHAR(100) NOT NULL,
+    quantidade INT NOT NULL,
+    data_venda DATE NOT NULL,
+    status_venda VARCHAR(20) NOT NULL,
+    
+    id_livro INT NOT NULL,
+    
+    PRIMARY KEY (id_venda),
+    
+    FOREIGN KEY (id_livro)
+		REFERENCES livros(id_livro)
+);
 
