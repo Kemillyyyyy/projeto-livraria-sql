@@ -22,4 +22,14 @@ CREATE TABLE autores (
 );
 
 
+/* =====================================================
+   TABELA: CATEGORIAS
+   ================================================== */
+CREATE TABLE categorias (
+	id_categoria INT AUTO_INCREMENT,
+    nome_categoria VARCHAR(100) NOT NULL,
+    
+    PRIMARY KEY (id_categoria)
+);
+
 
