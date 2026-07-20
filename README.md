@@ -6,7 +6,7 @@ disciplina de Banco de Dados.
 
 ## Integrantes do grupo
 
-- Carol
+- Karolina
 - Ingrid
 - Bárbara
 
