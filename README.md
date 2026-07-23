@@ -54,8 +54,8 @@ projeto-livraria-sql/
 1. Abra o MySQL Workbench (ou outra ferramenta de sua preferência, como DBeaver).
 2. Execute o arquivo `roteiros/01_criacao_banco_tabelas.sql` — isso cria o banco e as tabelas.
 3. Execute o arquivo `roteiros/02_insercao_dados.sql` — isso popula as tabelas com dados de teste.
-4. Execute o arquivo `roteiros/03_consultas.sql` — isso roda todas as consultas obrigatórias.
-5. Execute o arquivo `roteiros/04_atualizacao_exclusao.sql` — isso demonstra comandos de atualização (UPDATE) e exclusão (DELETE) de dados.
+4.Execute o arquivo `roteiros/04_atualizacao_exclusao.sql` — isso demonstra comandos de atualização (UPDATE) e exclusão (DELETE) de dados.
+5. Execute o arquivo `roteiros/03_consultas.sql` — isso roda todas as consultas obrigatórias.
 
 ## Principais consultas realizadas
 
